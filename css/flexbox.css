@@ -3,3 +3,6 @@
     align-items: center;
     justify-content: space-between;
 }
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
