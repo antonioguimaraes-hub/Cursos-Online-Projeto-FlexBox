@@ -1,6 +1,5 @@
 .cabecalhoPrincipal .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 .cabecalhoPrincipal-nav {
@@ -42,4 +41,14 @@
 
 .conteudoPrincipal-cursos-link {
     width: 20%;
+}
+
+.cabecalhoPrincipal-nav {
+    flex-direction: column;
+}
+
+.cabecalhoPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
 }
